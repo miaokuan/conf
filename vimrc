@@ -1,4 +1,5 @@
 set runtimepath+=~/.vim_runtime
+autocmd filetype crontab setlocal nobackup nowritebackup
 
 source ~/.vim_runtime/vimrcs/basic.vim
 source ~/.vim_runtime/vimrcs/filetypes.vim
